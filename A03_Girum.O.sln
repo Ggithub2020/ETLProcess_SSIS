@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "A03-ETLPackages", "A03-ETLPackages\A03-ETLPackages.dtproj", "{3BF83998-3C19-4A62-A8CF-1B2EFC0F602D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A8D1F822-98CD-4CB9-A394-47D20B98794E}"
+	ProjectSection(SolutionItems) = preProject
+		Data\AdventureWorks_Basics.bak = Data\AdventureWorks_Basics.bak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{277A109D-E7E4-4ECF-A192-C518988A4A99}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\1-Restore AdventureWorks_Basics Script-AsNeeded.sql = Scripts\1-Restore AdventureWorks_Basics Script-AsNeeded.sql
+		Scripts\2-Create DWAdventureWorks_Basics with SCD Script.sql = Scripts\2-Create DWAdventureWorks_Basics with SCD Script.sql
+		Scripts\A02-Starter ETL Script_GObse.sql = Scripts\A02-Starter ETL Script_GObse.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{D54AFBA5-5BB1-4C0D-BC91-14961F15B7F1}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\A03-Manual.pdf = Documents\A03-Manual.pdf
+		Documents\Visual ETL with SSIS_Ch07.pdf = Documents\Visual ETL with SSIS_Ch07.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BF83998-3C19-4A62-A8CF-1B2EFC0F602D}.Development|Default.ActiveCfg = Development
+		{3BF83998-3C19-4A62-A8CF-1B2EFC0F602D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44853C0-F10E-4E52-9034-15BC414FDBD4}
+	EndGlobalSection
+EndGlobal
